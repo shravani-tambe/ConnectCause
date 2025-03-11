@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "buildCommand": "./vercel-build.sh",
+  "outputDirectory": "dist",
+  "framework": "vite"
+}
